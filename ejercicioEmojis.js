@@ -35,5 +35,6 @@ for (let i = cartas.length - 1; i >= 0; i--) {
     joker.unshift(currentCard);
     nextCard = currentCard;
     
+    
 }
 console.log(joker);
