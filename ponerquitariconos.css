@@ -1,0 +1,37 @@
+.agregariconos{
+    width: 25%;
+    height: 70px;
+    margin: 5%;
+    border: 1px solid;
+    display: block;
+    align-items: center;
+
+}
+
+.quitariconos{
+    width: 25%;
+    height: 70px;
+    margin: 5%;
+    border: 1px solid;
+    display: block;
+    align-items: center;
+}
+
+.texto{
+    margin-top: 0px;
+    margin-left: 5px;
+}
+
+
+.cuantos{
+    width: 50px;
+    margin-left: 2%;
+}
+
+.boton{
+    margin: 2%;
+}
+
+.p1{
+    display: inline-flex;
+}
