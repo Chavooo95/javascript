@@ -16,6 +16,5 @@ const btntijera = document.getElementById("tijera");
 function escribirTexto(){
     document.getElementById("boton").addEventListener("click", () =>{
         displayArray();
-
     })
 };
