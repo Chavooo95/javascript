@@ -3,72 +3,188 @@
     src: url(./mk2.ttf);
 }
 
-body{
+body {
     margin: 0px;
 }
 
-#arriba{
+#arriba {
     width: 100%;
     height: 100%;
-    display: inline-flex;
+    display: flex;
     margin: 0px;
 }
 
-#abajo{
+#abajo {
     width: 100%;
     height: 100%;
-    display: inline-flex;
+    display: flex;
     margin: 0px;
     align-items: center;
 }
 
-#comida{
+#comida {
     background-color: rgb(162, 254, 24);
     width: 50vw;
     height: 50vh;
 }
 
-#deporte{
+#deporte {
     background-color: rgb(246, 246, 52);
     width: 50vw;
     height: 50vh;
 }
 
-#pelea{
+#pelea {
     background-color: rgb(220, 83, 83);
     width: 50vw;
     height: 50vh;
 }
 
-#dormir{
+#dormir {
     background-color: aquamarine;
     width: 50vw;
     height: 50vh;
 }
 
-#rajoy{
+#redonda {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-color: rgb(122, 122, 255);
     position: absolute;
-    margin-top: 25vh;
-    margin-left: 41vw;
-    
+    margin-top: 34vh;
+    margin-left: 42vw;
+    z-index: 2;
 }
 
-#bandera{
+#rajoy {
+    position: relative;
+    z-index: 3;
+    margin-left: 12%;
+    margin-top: 5%;
+
+}
+
+#nombre {
+    margin-top: 0px;
+    margin-left: 25%;
+    font-family: "MortalKombat";
+    font-size: 20px;
+}
+
+#bandera {
     margin-top: 5%;
     margin-left: 5%;
 }
 
-#puigdemont{
+#puigdemont {
     margin-left: 15%;
 }
 
-#comunismo{
+#comunismo {
     margin-left: 15%;
 }
 
-#fight{
+#fight {
     margin-top: 20%;
     margin-left: 40%;
     font-family: "MortalKombat";
     font-size: 50px;
+}
+
+#percebes {
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+#constitucion {
+    margin-left: 15%;
+}
+
+#podemos {
+    margin-left: 15%;
+}
+
+#food {
+    margin-top: 20%;
+    margin-left: 40%;
+    font-family: "MortalKombat";
+    font-size: 50px;
+}
+
+#runningRajoy {
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+#jumpingRajoy {
+    margin-left: 15%;
+}
+
+#sports {
+    margin-top: 15%;
+    margin-left: 40%;
+    font-family: "MortalKombat";
+    font-size: 50px;
+}
+
+#sleepingRajoy {
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+#sleepingRajoy2,
+#sleepingRajoy3 {
+    margin-left: 15%;
+}
+
+#sleep {
+    margin-top: 20%;
+    margin-left: 40%;
+    font-family: "MortalKombat";
+    font-size: 50px;
+}
+
+#progress_comida {
+    height: 5vh;
+    width: 35vw;
+    position: absolute;
+    margin-left: 6vw;
+    margin-top: 15%;
+}
+
+#progress_deporte {
+    height: 5vh;
+    width: 35vw;
+    position: absolute;
+    margin-left: 8vw;
+    margin-top: 15%;
+}
+
+#progress_pelea {
+    height: 5vh;
+    width: 35vw;
+    position: absolute;
+    margin-left: 6vw;
+    margin-top: 15%;
+}
+
+#progress_dormir {
+    height: 5vh;
+    width: 35vw;
+    position: absolute;
+    margin-left: 8vw;
+    margin-top: 15%;
+}
+
+#conservadores_Rajoy {
+    height: 5vh;
+    width: 10vw;
+    position: absolute;
+    margin-left: 3vw;
+    margin-top: 0%;
 }
