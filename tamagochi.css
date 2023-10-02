@@ -1,0 +1,61 @@
+body{
+    margin: 0px;
+}
+
+#arriba{
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    margin: 0px;
+}
+
+#abajo{
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    margin: 0px;
+}
+
+#comida{
+    background-color: rgb(162, 254, 24);
+    width: 50vw;
+    height: 50vh;
+}
+
+#jugar{
+    background-color: rgb(246, 246, 52);
+    width: 50vw;
+    height: 50vh;
+}
+
+#pelea{
+    background-color: rgb(220, 83, 83);
+    width: 50vw;
+    height: 50vh;
+}
+
+#dormir{
+    background-color: aquamarine;
+    width: 50vw;
+    height: 50vh;
+}
+
+#rajoy{
+    position: absolute;
+    margin-top: 40vh;
+    margin-left: 44vw;
+    
+}
+
+#bandera{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+#puigdemont{
+    margin-left: 15%;
+}
+
+#comunismo{
+    margin-left: 10%;
+}
