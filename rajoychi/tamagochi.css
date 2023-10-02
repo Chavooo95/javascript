@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "MortalKombat";
+    src: url(./mk2.ttf);
+}
+
 body{
     margin: 0px;
 }
@@ -14,6 +19,7 @@ body{
     height: 100%;
     display: inline-flex;
     margin: 0px;
+    align-items: center;
 }
 
 #comida{
@@ -22,7 +28,7 @@ body{
     height: 50vh;
 }
 
-#jugar{
+#deporte{
     background-color: rgb(246, 246, 52);
     width: 50vw;
     height: 50vh;
@@ -42,8 +48,8 @@ body{
 
 #rajoy{
     position: absolute;
-    margin-top: 40vh;
-    margin-left: 44vw;
+    margin-top: 25vh;
+    margin-left: 41vw;
     
 }
 
@@ -57,5 +63,12 @@ body{
 }
 
 #comunismo{
-    margin-left: 10%;
+    margin-left: 15%;
+}
+
+#fight{
+    margin-top: 20%;
+    margin-left: 40%;
+    font-family: "MortalKombat";
+    font-size: 50px;
 }
