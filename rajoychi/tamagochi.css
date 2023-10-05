@@ -150,55 +150,61 @@ body {
 }
 
 #progress_comida {
-    height: 5vh;
-    width: 35vw;
+    height: 16vh;
+    width: 8vw;
     position: absolute;
-    margin-left: 6vw;
-    margin-top: 15%;
-    border: 2px solid #000000;
-    text-indent: -9999px;
-    font-size: 0px;
+    margin-left: 21vw;
+    margin-top: -6%;
+    text-align: center;
 }
 
 #progress_deporte {
-    height: 5vh;
-    width: 35vw;
+    height: 16vh;
+    width: 8vw;
     position: absolute;
-    margin-left: 8vw;
-    margin-top: 15%;
+    margin-left: 23vw;
+    margin-top: -6%;
+    text-align: center;
 }
 
 #progress_pelea {
-    height: 5vh;
-    width: 35vw;
+    height: 16vh;
+    width: 8vw;
     position: absolute;
-    margin-left: 6vw;
-    margin-top: 15%;
+    margin-left: 21vw;
+    margin-top: -6%;
+    text-align: center;
 }
 
 #progress_dormir {
-    height: 5vh;
-    width: 35vw;
+    height: 16vh;
+    width: 8vw;
     position: absolute;
-    margin-left: 8vw;
-    margin-top: 15%;
+    margin-left: 23vw;
+    margin-top: -6%;
+    text-align: center;
 }
 
 #conservadores_Rajoy {
     height: 10vh;
     width: 5vw;
     position: absolute;
-    margin-left: 3vw;
-    margin-top: 12vh;
+    margin-left: 5.5vw;
+    margin-top: 7vh;
+    text-align: center;
 }
 
 .progress-container {
-    width: 150px; 
+    width: 150px;
     height: 150px;
     border-radius: 50%;
     position: absolute;
     z-index: 2;
-    transform: rotate(-90deg);
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
 }
 
 .progress-bar {
@@ -211,9 +217,50 @@ body {
     left: 0;
     transform-origin: center;
     transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
 }
 
-.textoRajoy{
-    text-align: center;
-    transform: rotate(90deg);
+.progresscontainer {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    margin-top: -33vh;
+}
+
+.progressbar {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(122, 122, 255);
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: center;
+}
+
+.progress-fill {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, #fff 0%, transparent 0%);
+    background-size: 200% 100%;
+    background-position: -100% 0;
+    animation: consume-progress 5s linear infinite;
+}
+
+@keyframes consume-progress {
+    0% {
+        background-position: 100% 0;
+    }
+    100% {
+        background-position: -100% 0;
+    }
 }

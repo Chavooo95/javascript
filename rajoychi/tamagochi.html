@@ -11,47 +11,68 @@
 <body>
     <div id="redonda">
         <img id="rajoy" src="./WhatsApp_Image_2023-10-02_at_15.07.40.png" height="150px" width="150px" alt="">
-        <div class="progress-container">
-            <div class="progress-bar" id="conservadores_Rajoy" aria-valuemax="100%" aria-valuemin="0%"><p class="textoRajoy">100%</p></div>
-        </div>
         <p id="nombre">M. Rajoy</p>
+        <div class="progress-container">
+            <div class="progress-bar" id="conservadores_Rajoy">
+                <div class="progress-text">100%</div>
+                <div class="progress-fill"></div>
+            </div>
+        </div>
     </div>
     <div id="arriba">
         <div id="comida">
-            <div id="progress_comida" role="timer" aria-atomic="true" aria-relevant="text" aria-valuemax="100" aria-valuemin="0">Food Left: <div id="comida_restante">100</div></div>
             <img id="percebes" src="./Percebes-removebg-preview.png" alt="" height="75px">
             <img id="constitucion"
                 src="https://2.bp.blogspot.com/-a5B855bjrQY/WEbq4t3qZ0I/AAAAAAAAGCA/Ly4dL0LdJx8g2rxFuVCWmJp4lsxmNv4_ACLcB/s320/Constitucion_de_1978.jpg"
                 alt="" height="75px">
             <img id="podemos"
-                src="https://s1.eestatic.com/2020/05/25/espana/podemos-espana_492711055_152490471_1706x960.jpg" alt=""
+                src="https://s1.eestatic.com/2020/05/25/espana/podemos-espana_492711055_152490471_1706x960.jpg"
                 height="75px">
             <p id="food">Food!</p>
+            <div class="progresscontainer">
+                <div class="progressbar" id="progress_comida">
+                    <div class="progress-text">100%</div>
+                    <div class="progress-fill"></div>
+                </div>
+            </div>
         </div>
         <div id="deporte">
-            <progress id="progress_deporte" value="100" max="100" min="0"></progress>
             <img id="runningRajoy" src="./runningRajoy.png" alt="" height="100px">
             <img id="jumpingRajoy" src="./jumpingRajoy.png" height="100px">
             <p id="sports">Sports!</p>
+            <div class="progresscontainer">
+                <div class="progressbar" id="progress_deporte">
+                    <div class="progress-text">100%</div>
+                </div>
+            </div>
         </div>
     </div>
     <div id="abajo">
         <div id="pelea">
-            <progress id="progress_pelea" value="100" max="100" min="0"></progress>
             <img id="bandera" height="75px"
                 src="https://www.worldflags.es/imagenes/productos/1617p_INDEPENDENTISTACAT.jpg" alt="">
             <img id="puigdemont" src="./WhatsApp_Image_2023-10-02_at_15.07.58.png" height="75px" alt="">
             <img id="comunismo" src="./comunismo.png" alt="" height="75px">
             <p id="fight">Fight!</p>
+            <div class="progresscontainer">
+                <div class="progressbar" id="progress_pelea">
+                    <div class="progress-text">100%</div>
+                </div>
+            </div>
         </div>
         <div id="dormir">
-            <progress id="progress_dormir" value="100" max="100" min="0"></progress>
             <img id="sleepingRajoy" src="./sleepingRajoy.png" alt="" height="75px">
             <img id="sleepingRajoy2" src="./sleepingRajoy2.png" alt="" height="75px">
             <img id="sleepingRajoy3" src="./sleepingRajoy3.png" alt="" height="75px">
             <p id="sleep">Sleep!</p>
+            <div class="progresscontainer">
+                <div class="progressbar" id="progress_dormir">
+                    <div class="progress-text">100%</div>
+                </div>
+            </div>
         </div>
     </div>
+    <script src="./tamagochi.js"></script>
 </body>
 
 </html>
