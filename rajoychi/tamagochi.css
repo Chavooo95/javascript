@@ -57,7 +57,7 @@ body {
     background-color: rgb(122, 122, 255);
     position: absolute;
     margin-top: 34vh;
-    margin-left: 41vw;
+    margin-left: 42vw;
     z-index: 2;
 }
 
@@ -188,26 +188,23 @@ body {
     height: 10vh;
     width: 5vw;
     position: absolute;
-    margin-left: 20vw;
-    margin-top: -75vh;
+    margin-left: 3vw;
+    margin-top: 12vh;
 }
 
 .progress-container {
-    width: 150px; /* Ajusta el tamaño del contenedor según tu diseño */
-    height: 150px; /* Ajusta el tamaño del contenedor según tu diseño */
-    background-color: transparent; /* Cambia el fondo a transparente si lo deseas */
-    border-radius: 50%; /* Hace que el contenedor sea circular */
+    width: 150px; 
+    height: 150px;
+    border-radius: 50%;
     position: absolute;
-    margin-top: 34vh;
-    margin-left: 42vw;
     z-index: 2;
-    transform: rotate(-90deg); /* Gira la barra para que comience desde arriba */
+    transform: rotate(-90deg);
 }
 
 .progress-bar {
     width: 100%;
     height: 100%;
-    background-color: #007bff;
+    background-color: rgb(122, 122, 255);
     border-radius: 50%;
     position: absolute;
     top: 0;
