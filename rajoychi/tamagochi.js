@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     let intervalo;
 
-    intervalo = setInterval(reducirPorcentaje, 50); 
+    intervalo = setInterval(reducirPorcentaje, 100); 
 });
 
 document.addEventListener("DOMContentLoaded", function () {
@@ -114,5 +114,5 @@ document.addEventListener("DOMContentLoaded", function () {
 
     let intervalo;
 
-    intervalo = setInterval(reducirPorcentaje, 5); // Controla la velocidad de consumo ajustando el valor 50
+    intervalo = setInterval(reducirPorcentaje, 5);
 });
